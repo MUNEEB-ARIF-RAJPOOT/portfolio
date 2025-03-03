@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <h1 class="logo">MyPortfolio</h1>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h2 class="animate-text">Hello, I'm <span class="name">Muneeb Arif</span></h2>
+        <p class="subtitle animate-text">A passionate Web Developer & Designer</p>
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I am a creative and detail-oriented web developer with experience in building responsive and user-friendly websites. My expertise lies in front-end development, UI/UX design, and crafting seamless digital experiences.</p>
+          <p>When I'm not coding, you'll find me exploring new technologies or working on personal projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>QuoteGenie</h3>
+          <p>QuoteGenie is a motivational quote generator that displays a random quote each time the user clicks a button. It’s a fun and inspiring tool for users who need a quick boost of positivity or creativity. The quotes are stored in a simple JavaScript array.</p>
+        </div>
+        <div class="project-card">
+          <h3>ToDoMate</h3>
+          <p>ToDoMate is a simple to-do list app where users can add tasks, mark them as complete, and delete them. It helps users stay organized by managing their daily tasks in one place. The app uses browser local storage to save tasks even after the page is refreshed.</p>
+        </div>
+        <div class="project-card">
+          <h3>SimpleCalc</h3>
+          <p>SimpleCalc is a basic calculator web application that allows users to perform arithmetic operations like addition, subtraction, multiplication, and division. It’s designed to help users quickly solve math problems without needing a physical calculator.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn btn-secondary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p>&copy; 2023 MyPortfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
